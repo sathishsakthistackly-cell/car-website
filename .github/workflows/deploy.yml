@@ -22,4 +22,5 @@ jobs:
 
     - name: Upload files to S3
       run: |
-        aws s3 sync . s3://carwebsite --delete
+        aws s3 sync . s3://car-website-bucket12345 --delete
+
